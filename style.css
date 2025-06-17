@@ -24,15 +24,37 @@ body {
   box-shadow: inset 8px 8px 10px rgba(0, 0, 0, 0.217),
     8px 8px 10px rgba(0, 0, 0, 0.322);
 }
-
-/* phone responsive part */
-@media screen and (max-width:620px) {
-    .common-btn {
-  padding: 8px 15px;
-  font-size: 14px;
-  border-radius: 4px;
-  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.217),
-    4px 4px 8px rgba(0, 0, 0, 0.322);
+.jacket {
+  background-color: rgb(241, 241, 241);
+  border-radius: 8px;
+  padding: 30px;
 }
-    
+.box-shadow {
+  box-shadow: 0 0 4px gray;
+  border-radius: 8px;
+}
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(250, 190, 76);
+}
+.other-content {
+    padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.26);
+  background: rgb(255, 255, 255);
+}
+footer {
+  background-color: rgb(11, 13, 23);
+  color: white;
+}
+/* phone responsive part */
+@media screen and (max-width: 620px) {
+  .common-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.217),
+      4px 4px 8px rgba(0, 0, 0, 0.322);
+  }
 }
