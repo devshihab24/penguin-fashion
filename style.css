@@ -5,7 +5,7 @@ body {
   color: rgb(54, 57, 88);
 }
 .header-section {
-  background-color: rgb(255, 248, 229);
+  background-color: rgba(255, 237, 189, 0.763);
 }
 .main-heading {
   font-family: "Bebas Neue", sans-serif !important;
@@ -25,7 +25,7 @@ body {
     8px 8px 10px rgba(0, 0, 0, 0.322);
 }
 .jacket {
-  background-color: rgb(241, 241, 241);
+  /* background-color: #F2AF29; */
   border-radius: 8px;
   padding: 30px;
 }
